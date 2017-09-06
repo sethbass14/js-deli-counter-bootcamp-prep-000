@@ -20,8 +20,8 @@ function currentLine(array) {
     return "The line is currently empty."
   } else {
       for (var i = 0; i < array.length; i++) {
-        var string = string + `${i + 1}. ${array[i]}, `
+        string = string + `${i + 1}. ${array[i]}, `
       }
   }
-  return string.slice(-1)
+  return string.slice(0, -1)
 }
