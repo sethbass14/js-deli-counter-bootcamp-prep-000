@@ -20,7 +20,7 @@ function currentLine(array) {
     string = "The line is currently empty."
   } else {
       for (var i = 0; i < array.length; i++) {
-        string = string + `${i + 1}. ${array[i]},  `
+        string = string + `${i + 1}. ${array[i]}, `
       }
   }
   return string
