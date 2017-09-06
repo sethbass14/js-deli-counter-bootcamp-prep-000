@@ -6,11 +6,11 @@ function takeANumber(array, name) {
 }
 
 function nowServing(array) {
+  name = array.shift()
   if (array.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
-    return `Currently serving ${array[0]}.`
-    array.shift()
+    return `Currently serving ${name}.`
   }
 }
 
