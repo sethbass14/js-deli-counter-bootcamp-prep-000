@@ -19,7 +19,7 @@ function currentLine(array) {
   if (array.length === 0) {
     string = string + "empty."
   } else {
-      for (i = 0; i < array.length; i++) {
+      for (var i = 0; i < array.length; i++) {
         string = string + `${i + 1}. ${array[i]},  `
       }
   }
