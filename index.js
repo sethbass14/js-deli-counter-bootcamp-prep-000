@@ -21,7 +21,7 @@ function currentLine(array) {
   } else {
       for (var i = 0; i < array.length; i++) {
         string = string + `${i + 1}. ${array[i]}, `
-        string = string.slice(0, (array.length -1))
+        string = string.slice(0, array.length)
       }
   }
   return string
