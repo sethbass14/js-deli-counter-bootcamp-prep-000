@@ -6,7 +6,7 @@ function takeANumber(array, name) {
 }
 
 function nowServing(array) {
-  name = array.shift()
+  var name = array.shift()
   if (array.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
