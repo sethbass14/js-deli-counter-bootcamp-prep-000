@@ -23,5 +23,5 @@ function currentLine(array) {
         string = string + `${i + 1}. ${array[i]}, `
       }
   }
-  return string.slice(0, -1)
+  return string.slice(0, -2)
 }
